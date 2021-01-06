@@ -31,11 +31,11 @@ jobs:
         python setup.py install
     - name: Launch containers
       run: |
-        export ARROW_GLOBAL_CONFIG_PATH=`pwd`/test-data/local-apollo3-arrow.yml
+        export ARROW_GLOBAL_CONFIG_PATH=`pwd`/test-data/docker-apollo3-arrow.yml
         ./bootstrap_apollo.sh --docker3
     - name: Run tests
       run: |
-        export ARROW_GLOBAL_CONFIG_PATH=`pwd`/test-data/local-apollo3-arrow.yml
+        export ARROW_GLOBAL_CONFIG_PATH=`pwd`/test-data/docker-apollo3-arrow.yml
         python setup.py nosetests
 
 #  pypi:
