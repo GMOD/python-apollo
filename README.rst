@@ -2,8 +2,6 @@ Apollo API Library
 ==================
 
 
-![Test](https://github.com/GMOD/python-apollo3/workflows/Test/badge.svg)
-
 .. image:: https://github.com/GMOD/python-apollo3/workflows/Test/badge.svg
     :target: https://github.com/GMOD/python-apollo3/actions
 
