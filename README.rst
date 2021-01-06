@@ -1,8 +1,11 @@
 Apollo API Library
 ==================
 
-.. image:: https://travis-ci.org/galaxy-genome-annotation/python-apollo.svg?branch=master
-    :target: https://travis-ci.org/galaxy-genome-annotation/python-apollo
+
+![Test](https://github.com/GMOD/python-apollo3/workflows/Test/badge.svg)
+
+.. image:: https://github.com/GMOD/python-apollo3/workflows/Test/badge.svg
+    :target: https://github.com/GMOD/python-apollo3/actions
 
 .. image:: https://readthedocs.org/projects/python-apollo/badge/?version=latest
     :target: http://python-apollo.readthedocs.io/en/latest/?badge=latest
